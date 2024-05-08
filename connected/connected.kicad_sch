@@ -1,0 +1,9720 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "21474b27-7b5e-4e51-861f-d0065ae697cb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Diode:D_Generic"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Generic"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *SingleDiode *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Generic_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Generic_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Development_Board:Raspberry_Pi_Pico_THT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 12.7 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Raspberry_Pi_Pico_THT"
+				(at 21.59 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SL_Development_Boards:raspberry_pi_pico_THT"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Development Board with RP2040 MCU "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RaspberryPi RP2040"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Raspberry_Pi_Pico_THT_0_1"
+				(rectangle
+					(start -15.24 29.21)
+					(end 15.24 -33.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Raspberry_Pi_Pico_THT_1_1"
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -8.89 0)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -11.43 0)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -13.97 0)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -16.51 0)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "GP17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -16.51 180)
+					(length 2.54)
+					(name "GP18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -13.97 180)
+					(length 2.54)
+					(name "GP19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "ADC0/GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "ADC1/GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 6.35 180)
+					(length 2.54)
+					(name "ADC2/GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 8.89 180)
+					(length 2.54)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 31.75 270)
+					(length 2.54)
+					(name "3V3(OUT)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 13.97 180)
+					(length 2.54)
+					(name "~{3V3_EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 31.75 270)
+					(length 2.54)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 13.97 0)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 31.75 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 11.43 0)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 8.89 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -35.56 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_KS-2P02B01-01_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_HS_KS-2P02B01-01_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 222.25 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "064c1818-04fb-4677-ab0f-e0b96ad4b1ca")
+	)
+	(junction
+		(at 208.28 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06eae40c-c493-48c0-80a2-d12fbb1f94c2")
+	)
+	(junction
+		(at 87.63 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09959f58-dfb7-4aec-b70d-4d4d0a345c31")
+	)
+	(junction
+		(at 259.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c95a16-37e8-4e98-a428-d3ae3ada678c")
+	)
+	(junction
+		(at 45.72 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16658df8-8664-443a-a8b3-e18954ec1dac")
+	)
+	(junction
+		(at 40.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "192fe180-1a65-4197-86b1-c884996e588c")
+	)
+	(junction
+		(at 26.67 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f3f8171-28fc-4cbf-af52-b83c349621c2")
+	)
+	(junction
+		(at 217.17 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd71fdb-f1c4-487e-87da-27da2ea14ad9")
+	)
+	(junction
+		(at 59.69 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23e75f22-b040-4661-9575-e60fd9305107")
+	)
+	(junction
+		(at 194.31 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f8f5c86-d315-4088-8508-36e046f0bfef")
+	)
+	(junction
+		(at 45.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a55529-27ce-4717-8c88-7736c198cc11")
+	)
+	(junction
+		(at 87.63 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37c13ab9-c8d6-4596-beef-2d4da10672cf")
+	)
+	(junction
+		(at 73.66 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38be12c3-bb9a-40dd-930d-b1351f091fcd")
+	)
+	(junction
+		(at 45.72 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e70b5be-d8bb-4e1b-a2f6-370ba17f1967")
+	)
+	(junction
+		(at 96.52 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eb9445d-ece5-4152-84fd-e34ea168da1b")
+	)
+	(junction
+		(at 208.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c03adec-0aa0-41cc-8ef0-2d66895a3f3d")
+	)
+	(junction
+		(at 40.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519a101d-abe5-443c-a345-c623b08338a6")
+	)
+	(junction
+		(at 96.52 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52a3bdfa-ac2e-4970-ace6-80ef982b2d16")
+	)
+	(junction
+		(at 101.6 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54017bf9-34c4-4e0c-8fdd-230df097d04b")
+	)
+	(junction
+		(at 59.69 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5455f311-40f1-4eb6-affe-d3383a9483e8")
+	)
+	(junction
+		(at 231.14 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e7579b9-7b45-4be1-97b3-9b2c5abebac3")
+	)
+	(junction
+		(at 54.61 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "601b09d9-ea68-4b10-87aa-cd9f8e1c649c")
+	)
+	(junction
+		(at 189.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60d13d0b-2fe8-45a2-bb5f-4aa9eb886c70")
+	)
+	(junction
+		(at 203.2 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64692244-6209-4d73-95aa-043abfba70de")
+	)
+	(junction
+		(at 68.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77bed382-e95e-4458-a6c0-ea9cc08ae14f")
+	)
+	(junction
+		(at 231.14 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78985978-4b4b-45d1-ade6-37c40085d461")
+	)
+	(junction
+		(at 259.08 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ea79d8-bb98-47c9-b265-720a9c87fe42")
+	)
+	(junction
+		(at 68.58 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b509941-2cdd-4108-bc26-2a78328391cc")
+	)
+	(junction
+		(at 87.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d65da36-9da6-4c9e-a157-a69dd3e40d89")
+	)
+	(junction
+		(at 54.61 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83495eec-8319-45cf-b70e-c182803e00b0")
+	)
+	(junction
+		(at 245.11 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8556fce9-2686-4425-8b4c-57163826163e")
+	)
+	(junction
+		(at 208.28 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ca61257-b9fa-40bb-812c-fd7a43e01fbd")
+	)
+	(junction
+		(at 96.52 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944f353a-4ab8-4687-bc37-fd51b6948934")
+	)
+	(junction
+		(at 217.17 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95657692-0f4c-42ac-a3ab-b6d8fb5539cd")
+	)
+	(junction
+		(at 194.31 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd75091-8745-49a2-8756-4bb560cbf8a6")
+	)
+	(junction
+		(at 250.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6b7a69-7e13-4e44-b46d-cc03577d45d4")
+	)
+	(junction
+		(at 87.63 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8e7530-182e-421a-b73e-d466c37fd6f0")
+	)
+	(junction
+		(at 73.66 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0dbf5ff-eb36-479e-b36e-b4f6372be970")
+	)
+	(junction
+		(at 203.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1b56584-bb65-43c2-80e3-b62e2e51a701")
+	)
+	(junction
+		(at 236.22 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b246880d-dffe-4fd4-8bb3-8610eeb1dfce")
+	)
+	(junction
+		(at 222.25 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b243fa-fbe4-4475-82eb-6074ef613382")
+	)
+	(junction
+		(at 189.23 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bafcfae7-7484-46af-8873-2494b1c635c3")
+	)
+	(junction
+		(at 203.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb17b535-bc0a-4df2-bd56-eff9bf3d64d7")
+	)
+	(junction
+		(at 73.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf4d3ed0-3e6f-4136-a3cc-92fca9599bda")
+	)
+	(junction
+		(at 68.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8d1f91-2856-4ecd-9925-8db361661720")
+	)
+	(junction
+		(at 194.31 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14f14c2-fd0f-433f-9f79-8a5fb61f8dd3")
+	)
+	(junction
+		(at 208.28 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1dde4c1-03e8-4fbf-8bb1-635a17e93144")
+	)
+	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26a5169-dc36-4989-a8d7-2ad10716e107")
+	)
+	(junction
+		(at 222.25 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d326ae1e-5b4a-4596-a595-2dd183919689")
+	)
+	(junction
+		(at 250.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d86c26c7-8d00-4b36-8566-f93d47d9c345")
+	)
+	(junction
+		(at 236.22 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8b77fcb-9d2b-4931-827b-f82eb9abbe6b")
+	)
+	(junction
+		(at 250.19 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d92dde55-7a30-47b5-9c0c-7e85f85b7a38")
+	)
+	(junction
+		(at 82.55 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ee346f-c063-471d-bd1a-fbcc41ff2ac5")
+	)
+	(junction
+		(at 236.22 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e32da47f-5a7b-4565-aa8f-a8d4b024d841")
+	)
+	(junction
+		(at 26.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e430460b-d33b-4200-b014-092823c21e7d")
+	)
+	(junction
+		(at 189.23 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e509cc6f-51eb-4423-9d4d-43033ea884f4")
+	)
+	(junction
+		(at 82.55 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6402e5c-2968-441c-8a50-03de7f6cd46c")
+	)
+	(junction
+		(at 245.11 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee8c226d-034a-405d-ae88-62a570b6cc8a")
+	)
+	(junction
+		(at 82.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a346f1-b125-4425-8f8b-999a307b6364")
+	)
+	(junction
+		(at 217.17 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ce1a2f-3570-402a-846e-5853de7bafc3")
+	)
+	(junction
+		(at 194.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb5aeb4b-f5b6-4802-a13d-fa1cc2e045de")
+	)
+	(wire
+		(pts
+			(xy 208.28 59.69) (xy 222.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004a7ad2-4ced-450a-93a4-b11d9923e1e2")
+	)
+	(wire
+		(pts
+			(xy 59.69 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01968291-f16b-40f1-93c2-e72199273e11")
+	)
+	(wire
+		(pts
+			(xy 40.64 48.26) (xy 40.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02158d50-16b4-42e8-8c52-88495d942e67")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0375872d-5d6b-454c-a04c-5d5118935e1c")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03df0697-d1b3-4a66-8595-15bb5cdb6f32")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 217.17 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0450ea8b-c920-4307-9a49-45094b2f9850")
+	)
+	(wire
+		(pts
+			(xy 208.28 99.06) (xy 222.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b59c52-8794-4780-97c0-126e35aa52ea")
+	)
+	(wire
+		(pts
+			(xy 31.75 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4dd6ae-8991-4156-b16b-b8e72512ae94")
+	)
+	(wire
+		(pts
+			(xy 22.86 163.83) (xy 26.67 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1237c6f5-c27a-4dab-859c-875ddad33f4e")
+	)
+	(wire
+		(pts
+			(xy 22.86 161.29) (xy 26.67 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15131666-e63c-40db-98d1-26ea9606eb8f")
+	)
+	(wire
+		(pts
+			(xy 26.67 27.94) (xy 259.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1543910f-26d8-4056-a7e6-4200c2c24603")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160e6122-ec71-4af7-94d1-3d8a93d005d5")
+	)
+	(wire
+		(pts
+			(xy 189.23 86.36) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16747642-b738-42b7-aa11-3ff593bd5633")
+	)
+	(wire
+		(pts
+			(xy 250.19 99.06) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e51513b-4365-4d19-84b7-2a662e924871")
+	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd16780-1ddb-4e2d-842b-63123fecfc64")
+	)
+	(wire
+		(pts
+			(xy 96.52 48.26) (xy 96.52 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e356b1-0169-4d4e-b089-34f92f98ab19")
+	)
+	(wire
+		(pts
+			(xy 189.23 34.29) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e83ba0-47b8-400f-a752-d75593e84e08")
+	)
+	(wire
+		(pts
+			(xy 66.04 158.75) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bfccde-e702-4eec-a24f-b68ac9f19faa")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3973e8-81d2-4828-81dd-50f6ee079c15")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9591e8-b8cd-408d-b1c5-90f40b1a6be8")
+	)
+	(wire
+		(pts
+			(xy 22.86 135.89) (xy 26.67 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dad8418-cc06-4435-aff5-d3dd4e1767a5")
+	)
+	(wire
+		(pts
+			(xy 231.14 46.99) (xy 231.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e112d0c-7332-4d85-bb29-38bd0f6c4861")
+	)
+	(wire
+		(pts
+			(xy 68.58 48.26) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316f38f0-1799-460c-857a-e7042007e3a1")
+	)
+	(wire
+		(pts
+			(xy 22.86 127) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b23b92-10fa-455c-8cc6-07834ca30da1")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34df1c25-d7b5-4ef4-b4a0-fd729fe38ce7")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39792eb4-f0c7-43f6-94e4-d9d41478e37e")
+	)
+	(wire
+		(pts
+			(xy 194.31 123.19) (xy 208.28 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "402daa18-60da-47e7-8b24-14a59fc921d8")
+	)
+	(wire
+		(pts
+			(xy 22.86 144.78) (xy 26.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423fe4fb-f881-4665-a5d2-4a06509ac937")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426bfcde-78af-48ff-a8de-4f700116a692")
+	)
+	(wire
+		(pts
+			(xy 184.15 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cfa6ea-498f-45b5-9990-2e9909fd0cfc")
+	)
+	(wire
+		(pts
+			(xy 203.2 67.31) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467e2651-98fb-4f33-b7f6-cb1294a6c873")
+	)
+	(wire
+		(pts
+			(xy 62.23 161.29) (xy 66.04 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a2c2f7-29b7-4de1-a64c-9ca9f7e5f0af")
+	)
+	(wire
+		(pts
+			(xy 189.23 46.99) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a549b43-16b9-4fe7-b43f-a29493ece2e1")
+	)
+	(wire
+		(pts
+			(xy 40.64 68.58) (xy 40.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b58b7d5-ae3d-4ff7-a270-2b560012cd5a")
+	)
+	(wire
+		(pts
+			(xy 236.22 59.69) (xy 250.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8a229f-f6bc-4aae-864e-566f213d1363")
+	)
+	(wire
+		(pts
+			(xy 245.11 46.99) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfb60a8-4d5e-451b-b42b-a490c726efea")
+	)
+	(wire
+		(pts
+			(xy 22.86 167.64) (xy 26.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ff9dad-27ca-4aa0-84a1-fe86b9d76198")
+	)
+	(wire
+		(pts
+			(xy 259.08 27.94) (xy 259.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f6895d-6811-44f1-b97e-8b8cc65682ba")
+	)
+	(wire
+		(pts
+			(xy 22.86 147.32) (xy 26.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583cc865-6fae-42f1-86b9-7b70e5c99746")
+	)
+	(wire
+		(pts
+			(xy 222.25 59.69) (xy 236.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a69c473-e687-4ad2-8c8c-cdf99373e9b3")
+	)
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d24780b-03c2-4989-bca1-59c72463761b")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbd3045-f26e-40d7-bfd4-c240ffe74ed3")
+	)
+	(wire
+		(pts
+			(xy 26.67 48.26) (xy 26.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e99e0dd-9061-440c-bae7-05f29ca81a60")
+	)
+	(wire
+		(pts
+			(xy 31.75 100.33) (xy 45.72 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2c5fad-5ce8-4e0d-a5eb-baf6c0329186")
+	)
+	(wire
+		(pts
+			(xy 222.25 99.06) (xy 236.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62174512-b688-4a90-b48b-acfc59932bc6")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 59.69 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647be04d-b6d4-413b-8acd-50177ba72941")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 203.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d2692b-1ee1-4bdc-9fa5-09f048b1147b")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b955a2d-8483-48e8-a959-25f8d01f9f2e")
+	)
+	(wire
+		(pts
+			(xy 22.86 133.35) (xy 26.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffa5feb-4fac-4b16-8989-b7b908aa9a63")
+	)
+	(wire
+		(pts
+			(xy 101.6 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702c6fa6-ddc1-4070-ac2c-7354769aa3ce")
+	)
+	(wire
+		(pts
+			(xy 189.23 67.31) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d1df97-e734-4102-98f2-b6dba27075ec")
+	)
+	(wire
+		(pts
+			(xy 245.11 67.31) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cd6626-f50b-4d0e-bced-12b07e9387c3")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 68.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7828142f-2f77-45da-b683-aceedd66dcfd")
+	)
+	(wire
+		(pts
+			(xy 208.28 80.01) (xy 222.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788a5e08-2e0e-48c3-b334-c0e920c9945b")
+	)
+	(wire
+		(pts
+			(xy 68.58 31.75) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab46e33-46a0-49cd-b80e-679b2b3b2736")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf2c8a2-3556-4cf3-a600-33fbe3cf616e")
+	)
+	(wire
+		(pts
+			(xy 26.67 27.94) (xy 26.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9d6284-9bb9-45d3-bdf5-173002e50cef")
+	)
+	(wire
+		(pts
+			(xy 22.86 149.86) (xy 26.67 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80eb5a81-64d1-4aa5-aadd-262313bd72fc")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826e79d8-df1c-43b4-bedb-63dcc1c91e58")
+	)
+	(wire
+		(pts
+			(xy 208.28 123.19) (xy 222.25 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf16311-ea88-4f9b-89b9-ba44f567e036")
+	)
+	(wire
+		(pts
+			(xy 26.67 68.58) (xy 26.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989aaf93-210f-40e8-9db0-c88519305435")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 194.31 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b452f0f-ce49-4ff4-a369-6eb37c7e0f31")
+	)
+	(wire
+		(pts
+			(xy 259.08 46.99) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c38b1ba-b798-46bb-a929-b82d30de8ad3")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed33403-3fb3-42c7-9e1f-a21164173afb")
+	)
+	(wire
+		(pts
+			(xy 54.61 30.48) (xy 231.14 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a007807a-a761-4c9c-8dc0-aa0a47850d07")
+	)
+	(wire
+		(pts
+			(xy 203.2 86.36) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b52abe-654e-4848-8bfc-d0207677ac42")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3262ae8-3312-4445-8338-c9811575b4d1")
+	)
+	(wire
+		(pts
+			(xy 22.86 152.4) (xy 26.67 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53da030-9a1b-4bd2-a478-d98bee0f6d27")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61042ce-b99b-4c4a-aec0-9bbe7ab46780")
+	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71fa56a-6656-4536-a079-39072e05965d")
+	)
+	(wire
+		(pts
+			(xy 250.19 59.69) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95c4026-3ba8-4a3d-90ec-21bf4160e636")
+	)
+	(wire
+		(pts
+			(xy 217.17 31.75) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac02223a-25bc-48bc-9efc-2443ba64ffbd")
+	)
+	(wire
+		(pts
+			(xy 62.23 163.83) (xy 66.04 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3afeee-3b81-4d8f-b265-b43121261ced")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 54.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9e8a36-0ba3-48f3-ba33-1c230f1ae635")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbeb8ba-5f84-4bbb-b70d-077b29ffe7ef")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7ec2f2-17bb-4fec-93ff-62659b1d15f0")
+	)
+	(wire
+		(pts
+			(xy 231.14 30.48) (xy 231.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c92638-5821-4c5b-9f4e-d2dc20040af9")
+	)
+	(wire
+		(pts
+			(xy 73.66 60.96) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e4e742-88d5-4164-bd4d-e11e97a35628")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76269fb-8130-4094-81b6-6380cd1be930")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8cd38c-3b3f-457f-b211-b5d94fe6fef8")
+	)
+	(wire
+		(pts
+			(xy 231.14 67.31) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd36f32d-8a60-443e-a088-ccf7de91e619")
+	)
+	(wire
+		(pts
+			(xy 184.15 59.69) (xy 194.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9a08a5-8a42-4d74-a5f4-0b11445f0e89")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 82.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8f71b4-934a-4134-945f-5460afa197cb")
+	)
+	(wire
+		(pts
+			(xy 217.17 46.99) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17164a7-3f5c-41a7-a60b-2895d2188052")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 26.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d190de2e-5a3f-46c8-9641-2c15c075d25a")
+	)
+	(wire
+		(pts
+			(xy 250.19 80.01) (xy 264.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19e5e46-0f25-401a-bd20-4b542e933b2c")
+	)
+	(wire
+		(pts
+			(xy 22.86 129.54) (xy 26.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38254c2-fd22-4127-87cd-a340d3ded426")
+	)
+	(wire
+		(pts
+			(xy 236.22 80.01) (xy 250.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4539876-5bab-4346-aec5-16efb689728c")
+	)
+	(wire
+		(pts
+			(xy 22.86 138.43) (xy 26.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52a2d23-08b4-4aff-b34d-202bd340ea18")
+	)
+	(wire
+		(pts
+			(xy 203.2 46.99) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d880e93d-c08a-404b-a181-640c1aaf3f73")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 245.11 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd240ba6-0302-4c11-8465-ae4886c823c1")
+	)
+	(wire
+		(pts
+			(xy 31.75 81.28) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e377f59c-de5d-4834-a39f-c4df1fe61dd1")
+	)
+	(wire
+		(pts
+			(xy 82.55 48.26) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f6694a-e62d-416d-aed1-0d9cbb95f0b4")
+	)
+	(wire
+		(pts
+			(xy 22.86 140.97) (xy 26.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e610474e-e378-4a71-b9ef-4ef38d0dc11c")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9350a40-e0c1-46ea-aa83-b9eee3b11413")
+	)
+	(wire
+		(pts
+			(xy 259.08 67.31) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ee8803-c7ca-48d8-aff4-1919e07f75a3")
+	)
+	(wire
+		(pts
+			(xy 245.11 29.21) (xy 245.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6a373a-c343-409f-a0be-05ec1653dc86")
+	)
+	(wire
+		(pts
+			(xy 217.17 86.36) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacd9b51-cade-44ae-a5b9-5329fcf19b35")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 189.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebfb5b18-2b15-4379-99a8-b0d4f65b0080")
+	)
+	(wire
+		(pts
+			(xy 54.61 68.58) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8f8ff8-4c13-4745-aecb-d7d183bff6fd")
+	)
+	(wire
+		(pts
+			(xy 236.22 99.06) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef358ae4-ad73-453c-bb41-9969b47f0a33")
+	)
+	(wire
+		(pts
+			(xy 96.52 87.63) (xy 96.52 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05b3234-6d20-42b8-898d-b7eb642cd3db")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c94bab-2547-45d6-a198-8625fd891ba2")
+	)
+	(wire
+		(pts
+			(xy 217.17 31.75) (xy 68.58 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5ec40e-42e8-4393-81f8-4ff9813752e0")
+	)
+	(wire
+		(pts
+			(xy 45.72 100.33) (xy 59.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7fe328-aade-4758-992c-abf865ac6f30")
+	)
+	(wire
+		(pts
+			(xy 22.86 158.75) (xy 26.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fecdc2b9-9c64-40ca-a9f8-799f0779ec14")
+	)
+	(global_label "Row1-L"
+		(shape input)
+		(at 22.86 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0150df0f-2997-493d-8233-f3ee7c30e2ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 22.86 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "016bb907-2a61-49bd-a444-b054525e2837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row0-L"
+		(shape input)
+		(at 22.86 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d1c956-67e6-4dd5-955c-e615110d6379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 107.95 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a1a6081-4ee9-4193-8a96-b513be45c5c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.3686 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 22.86 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cbdda60-006a-4831-a1bf-72c56637edcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row0-R"
+		(shape input)
+		(at 66.04 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f093c14-636c-4d00-89a5-708aeae901df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8266 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1-R"
+		(shape input)
+		(at 66.04 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "129a1736-c040-4787-a946-c00661ef70dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8266 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row2-L"
+		(shape input)
+		(at 22.86 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17eda403-ff25-4717-b33b-b2fc33369de4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3-L"
+		(shape input)
+		(at 107.95 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "180ff109-d964-4924-aaf6-a909a9f671df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.4947 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row2-R"
+		(shape input)
+		(at 66.04 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a2db358-177d-4965-8232-9de8496708ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8266 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3-R"
+		(shape input)
+		(at 187.96 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d9cd0d4-7c38-47db-b2d4-cade07fabfdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.1734 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 62.23 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25812b82-5096-4fa5-9935-98626c75659e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.8114 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col4"
+		(shape input)
+		(at 82.55 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29531ca1-2a46-4f29-aef6-883b66f98f53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 25.7411 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 107.95 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32e0e8da-c430-4e57-8345-2fdf65832866")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1872 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 40.64 29.21 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3965d0a1-6fb2-4457-a465-cd8df5a1feb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 21.9311 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 45.72 115.57 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39fec908-910d-480b-8050-6c95b559f3dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 110.2867 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col1"
+		(shape input)
+		(at 22.86 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "468f1b99-860b-4b19-bb20-a5bddedc950d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 22.86 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b42401a-d8bc-4664-9ef8-0be9ac1137f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col2"
+		(shape input)
+		(at 54.61 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "600ac1ea-8035-4b75-8a3a-44eebb283fc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 23.2011 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NCS"
+		(shape input)
+		(at 62.23 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72e4527e-454e-4821-9da6-af11145df768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0252 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 107.95 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82901535-2401-41c9-96f9-f422dc093f2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.3686 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1-L"
+		(shape input)
+		(at 101.6 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84a2fbca-5387-4813-b00a-7c10787f7655")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col0"
+		(shape input)
+		(at 26.67 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84bb018a-b17e-4a71-b89e-a7521a8da7f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.67 20.6611 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 107.95 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88e8d3d8-24ea-4175-b4f3-41cfbd2480fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NCS"
+		(shape input)
+		(at 107.95 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a3b9b94-345d-4d3a-a6cc-bfc28b0c34cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.1548 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3-L"
+		(shape input)
+		(at 22.86 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8efe4f94-3ede-407c-bb2d-bea3592140bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 107.95 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95eea46d-a247-467a-9c06-dd4d9ca5082f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0943 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 43.18 182.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa7bed6d-4a90-4507-a837-a594249bb21b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 189.7357 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row2-L"
+		(shape input)
+		(at 101.6 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aed78e95-a5cc-43e7-b684-774d652e8cfe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col5"
+		(shape input)
+		(at 96.52 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b130e97e-1267-4cf8-aca1-9da4ea06a8e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 27.0111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row1-R"
+		(shape input)
+		(at 184.15 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3d54e15-b69d-4f47-9a9a-bb7d46baef46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3634 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col4"
+		(shape input)
+		(at 22.86 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9748bf1-f536-4e5f-a3b1-9fbc29518744")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 22.86 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba2a9e93-6bad-446b-8384-66e4290e03e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.0972 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row0-L"
+		(shape input)
+		(at 101.6 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4b4c398-68a5-42d1-9e49-2d8770d4cafb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col3"
+		(shape input)
+		(at 68.58 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d64ac96e-8689-4f81-8437-b779099d84d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 24.4711 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row2-R"
+		(shape input)
+		(at 184.15 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d65cb42a-2e08-4ba2-a13e-382f39883721")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3634 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row0-R"
+		(shape input)
+		(at 184.15 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea0e725e-be34-462d-999c-692ce6de7672")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3634 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col0"
+		(shape input)
+		(at 22.86 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec7251d8-3019-434d-baaf-2fa5af2315ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.5811 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 22.86 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3953e3a-e000-4a9b-b1ff-4f9d51720eff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2786 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row3-R"
+		(shape input)
+		(at 66.04 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f52742a2-d117-443b-9203-4affcedd2a57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8266 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 59.69 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0098802b-9996-4a75-87cc-32591f2a6aad")
+		(property "Reference" "D15"
+			(at 62.23 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 62.23 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 59.69 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22ef3817-0c88-436a-aea3-baa58510ab17")
+		)
+		(pin "2"
+			(uuid "f164e214-b04d-42a3-b3d9-4eec7f268910")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 59.69 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0602f805-fc06-4aaf-841a-eb1ac2fea971")
+		(property "Reference" "D3"
+			(at 62.23 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 62.23 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 59.69 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9391b788-3aeb-4d8a-8380-e15c42b4640d")
+		)
+		(pin "2"
+			(uuid "e47a53cc-e9af-4ec8-91fb-a5186dd312cd")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 87.63 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0645f1dd-e938-4c23-ad69-df78cffc810d")
+		(property "Reference" "D17"
+			(at 90.17 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 90.17 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 87.63 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98955ff4-6841-4d92-89fc-77ca96922a40")
+		)
+		(pin "2"
+			(uuid "6df49412-cd28-49b8-9aee-7ee9e4040e0a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 71.12 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1060f182-e0c6-4582-990a-d4bcfa9919d9")
+		(property "Reference" "MX16"
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 71.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 71.12 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b56d4763-6a90-425c-a2b1-f8784eac0541")
+		)
+		(pin "1"
+			(uuid "00eb4673-99b7-412d-bc40-21101f789a44")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 57.15 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167dcd4b-487c-4d2d-9bbd-fc5ff898ea1c")
+		(property "Reference" "MX9"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 57.15 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cabe97ca-a8f2-43f1-b681-33f7148cb736")
+		)
+		(pin "1"
+			(uuid "bea974d5-6add-472f-bf7b-8cf3004a7b41")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 29.21 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "196179fa-054d-4874-8c7e-63bfb0b2a5f3")
+		(property "Reference" "MX1"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28c4af75-95f9-4566-9f09-f1f6df3d4c3c")
+		)
+		(pin "1"
+			(uuid "4213b64d-a757-461b-bea6-a5a52635fc08")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 31.75 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0d3dbb-ce78-4c7e-aa1f-ef826148356f")
+		(property "Reference" "D13"
+			(at 34.29 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 34.29 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27c01c4d-81df-477f-9d35-16403881a755")
+		)
+		(pin "2"
+			(uuid "c193e6ae-68dc-4744-bbdd-566f28ed648d")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 191.77 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d70c6a0-c44d-4f63-a242-e1e2efb35490")
+		(property "Reference" "MX19"
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 191.77 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec8c8780-a6a2-45c2-93ee-32ab70dd1b78")
+		)
+		(pin "1"
+			(uuid "75830384-349c-4b06-85a0-e8ed3e7f1140")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 261.62 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "204f67f0-5ac5-4403-8f14-c866fd32bf5f")
+		(property "Reference" "MX36"
+			(at 261.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 261.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2609353a-b7b1-4942-9508-d426ac0572d5")
+		)
+		(pin "1"
+			(uuid "f4bbac50-6d1e-4e62-895d-d7b27e179583")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 250.19 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "246b3eb6-ea83-4744-b3dc-426bdd04ac98")
+		(property "Reference" "D32"
+			(at 252.73 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 252.73 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9e43c6-6a4a-4d8e-b0eb-6ad25d270e9a")
+		)
+		(pin "2"
+			(uuid "6db639cc-1883-4c26-878d-8426ab9537a3")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 233.68 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "275986b3-756b-4fa8-a9aa-09393ffb13d0")
+		(property "Reference" "MX28"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 233.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 233.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5e5c59c-a4a4-4e7e-8132-de51fd860c73")
+		)
+		(pin "1"
+			(uuid "435c7af4-080c-4625-80a5-285f860221a3")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 222.25 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d31e006-0ee7-4f67-8a6a-cb8939946867")
+		(property "Reference" "D26"
+			(at 224.79 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 224.79 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "046f7dc3-5848-457d-ba7b-d9fc9ac18b5f")
+		)
+		(pin "2"
+			(uuid "d1b1ba10-ee42-4916-abb7-f0f9fdb30cfb")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 205.74 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fe92adb-bc7d-4121-8b2e-29b92b0224b6")
+		(property "Reference" "MX23"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 205.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 205.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32955e2f-2661-4b32-bb92-5fa6472a65d2")
+		)
+		(pin "1"
+			(uuid "56f9e053-5d9e-4cf8-979b-8b6234c57de3")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 87.63 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301dce80-9fbd-4d3d-8081-922f20f8f2c3")
+		(property "Reference" "D11"
+			(at 90.17 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 90.17 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6342793f-64b1-466c-b66e-905c97540c4b")
+		)
+		(pin "2"
+			(uuid "2ab62a9f-ba67-43f7-ab6c-a565fa3d9443")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 85.09 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3034a30f-357e-4f22-a29a-093ef4917c43")
+		(property "Reference" "MX11"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35232ff3-c2be-45c1-8bbb-3a7a64480390")
+		)
+		(pin "1"
+			(uuid "b879cd9d-44eb-44ed-a216-734642149c02")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 236.22 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "323a2ee0-67e3-4a52-b12f-c2a08a33dc02")
+		(property "Reference" "D29"
+			(at 238.76 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 238.76 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 236.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301e40d4-cbf1-4ed2-be9f-d1ba824efa66")
+		)
+		(pin "2"
+			(uuid "879d36e8-d8e0-4fef-9b49-17a179ec495c")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 261.62 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "328a3ecf-e6e2-4451-85d4-5a7c25917b7f")
+		(property "Reference" "MX35"
+			(at 261.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 261.62 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95c99f9d-3726-4466-bb6c-a5014be07f4b")
+		)
+		(pin "1"
+			(uuid "a6ae7e49-cbf2-4f7c-a7b4-31a1badc06e9")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 101.6 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35df684f-9ae4-45cb-b70b-0381792f3559")
+		(property "Reference" "D39"
+			(at 104.14 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 104.14 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9794f65-58a7-4e0c-896d-7634a7e9fac4")
+		)
+		(pin "2"
+			(uuid "5a76a172-49ae-45a3-93c9-6e7b3b3f9cdd")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 101.6 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "372f894f-4917-401a-99eb-6dfb0d06a90e")
+		(property "Reference" "D12"
+			(at 104.14 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 104.14 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736538ac-3500-4b98-8155-3190fe82d8c8")
+		)
+		(pin "2"
+			(uuid "92139e2e-56b4-4c1b-baea-b1e9e250f23f")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 247.65 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "386d90ef-eb1a-4321-8b5e-806156c4e4b8")
+		(property "Reference" "MX32"
+			(at 247.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 247.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03a8d1b5-1d98-43ac-8d2f-6e187af676b0")
+		)
+		(pin "1"
+			(uuid "28bbe687-f312-43c9-9138-10d656c328ee")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 57.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38c9a982-5f92-4e87-82f3-cec8cf777b4b")
+		(property "Reference" "MX3"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb26d0f8-ed0c-4799-ab71-a766de52d160")
+		)
+		(pin "1"
+			(uuid "cc7c2b94-e07f-4971-b15d-0b6fa6cd4c98")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 191.77 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b6e8ef9-dd38-4625-a264-7ec5619c25f4")
+		(property "Reference" "MX40"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42eddb66-a56f-4700-a14c-38b10e0e0242")
+		)
+		(pin "1"
+			(uuid "3c0bcc03-2a76-498c-8907-15f7fa99c6ec")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 85.09 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4556c9c8-0189-49ee-9d49-3d652ce7af5d")
+		(property "Reference" "MX5"
+			(at 85.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 85.09 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edc00aa6-6765-46d4-a56d-7453744230f7")
+		)
+		(pin "1"
+			(uuid "b5d4b4ca-637f-47af-bfe1-d62e0b1080f6")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 208.28 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4577621a-2b74-43c1-85dc-a4217a402646")
+		(property "Reference" "D22"
+			(at 210.82 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 210.82 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2163a055-2bdf-4e03-b860-7b8c0db47994")
+		)
+		(pin "2"
+			(uuid "23cd54f5-e996-4622-8fcc-41bd68dd2c48")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 73.66 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b3a30c-6935-4902-953d-d3b92b348110")
+		(property "Reference" "D4"
+			(at 76.2 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 76.2 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c75adb8-66bc-48b1-a77c-74a6ffddbd6f")
+		)
+		(pin "2"
+			(uuid "e463fec3-ab3c-4a15-9b8f-e249405887b1")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 43.18 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a322068-d0ad-4435-9efd-1a7df31c829a")
+		(property "Reference" "MX8"
+			(at 43.18 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 43.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4ea514e-0c43-4ae9-9ae9-bce8cdfd0a93")
+		)
+		(pin "1"
+			(uuid "dbc521a0-15c5-4017-ae14-27dc0973063b")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 101.6 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "575613be-11bd-44eb-bc3f-af695b687224")
+		(property "Reference" "D6"
+			(at 104.14 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 104.14 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "315e350f-50b7-4784-acd5-2bebce8c940e")
+		)
+		(pin "2"
+			(uuid "9e461aed-fde4-4f95-822b-25be5d069449")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 247.65 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584b0d9e-124d-4b7b-8d82-e649089d33eb")
+		(property "Reference" "MX33"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dfe9c39-016c-450b-b0f8-4f92e844943c")
+		)
+		(pin "1"
+			(uuid "e71e46a6-e5f7-403b-90c5-f98d5bed2db7")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 219.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5afda8fd-f1b5-494f-8c46-24b53b8cc917")
+		(property "Reference" "MX25"
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 219.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3010d237-c4e0-450d-98b1-711d4188bdb4")
+		)
+		(pin "1"
+			(uuid "646fa31e-8342-405d-8221-c7dbac928814")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 194.31 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fac757c-4283-4a72-bfb4-f0a52e4d4791")
+		(property "Reference" "D40"
+			(at 196.85 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 196.85 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f7971dc-aba3-4549-b385-d35e5f2223cb")
+		)
+		(pin "2"
+			(uuid "dca0d003-91b5-43e9-9cdc-7eac4eb66e02")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 191.77 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fcdf5ef-6d67-4d98-b52e-40b13da214f9")
+		(property "Reference" "MX20"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 191.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 191.77 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1880d611-74b0-49ec-bac4-af24112bffa9")
+		)
+		(pin "1"
+			(uuid "93d65973-bc77-4e38-8c80-242ec8debf21")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 43.18 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607ff138-29d3-4c73-aed1-c81a4bac0e69")
+		(property "Reference" "MX2"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 43.18 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6dbe66ea-f5bd-4c8e-bb0c-15e7788b1fca")
+		)
+		(pin "1"
+			(uuid "5acbcc3a-c6c5-4a9e-90fe-264042eacde6")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 29.21 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e60cca-6508-4072-934b-7815fc1114ac")
+		(property "Reference" "MX7"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f01baa-854c-4721-a272-d357d3a23c81")
+		)
+		(pin "1"
+			(uuid "d7514885-0bcc-4e02-8ec8-a7ceeb3a4941")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 31.75 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687d310e-0353-41f8-a921-d48d09665c03")
+		(property "Reference" "D1"
+			(at 34.29 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 34.29 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 31.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "145f38f2-66d1-4ebe-8665-0ff621a9fa60")
+		)
+		(pin "2"
+			(uuid "f9420fcf-f9ea-4dcf-8bd7-217d2170b35a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 222.25 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d461cac-8a94-45f2-bc28-b7b03d26c556")
+		(property "Reference" "D27"
+			(at 224.79 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 224.79 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4103d632-2188-4c9e-9033-fb399abf59c0")
+		)
+		(pin "2"
+			(uuid "13be85eb-f01c-4a32-903e-b47f43efeaf4")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 99.06 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70e527cf-316d-415b-a762-287fba0c8b82")
+		(property "Reference" "MX39"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbc90543-853b-4e7c-806b-c10b5e0e1a50")
+		)
+		(pin "1"
+			(uuid "e3d709d3-247b-47e7-8267-97d96c40865a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 29.21 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7237301d-2230-442f-8c11-6d75081aa69e")
+		(property "Reference" "MX13"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dbac0b6-8092-4985-acfb-6fbbb9af1a41")
+		)
+		(pin "1"
+			(uuid "047a6eea-0a48-4603-aeb8-7032f2a0cfd8")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 45.72 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75281f6b-e4f5-4108-8b0f-18dcff64dcfe")
+		(property "Reference" "D14"
+			(at 48.26 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 48.26 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cc68085-30b2-4a66-8bc6-2845beaac218")
+		)
+		(pin "2"
+			(uuid "ca064c44-26b2-4269-98b5-7a34a9e9e95c")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 73.66 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "786a23b6-94b0-4cd7-b4b4-1d0816a55f56")
+		(property "Reference" "D37"
+			(at 76.2 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 76.2 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 73.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e79153b-14aa-455e-95f0-20d1a129ffc9")
+		)
+		(pin "2"
+			(uuid "ff4c53d1-1db5-4c96-8beb-705ab46ca377")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 73.66 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ae6e369-0fea-460d-bd8e-28081c6112f8")
+		(property "Reference" "D16"
+			(at 76.2 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 76.2 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa407f8-b4e6-4294-9b33-a256bcee2a21")
+		)
+		(pin "2"
+			(uuid "09f3e1e6-2ac1-411d-85b7-32640c5370f8")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 71.12 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b6c6c8a-34ae-4d73-96fe-7e6f10be58ee")
+		(property "Reference" "MX10"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c63262f1-1453-4a47-970a-186043ab52bd")
+		)
+		(pin "1"
+			(uuid "381132d0-a3bb-4506-a0c8-502d028d0d42")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Development_Board:Raspberry_Pi_Pico_THT")
+		(at 44.45 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dea1210-c504-44bc-b07f-f81aa8b98fb3")
+		(property "Reference" "A1"
+			(at 33.02 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Raspberry_Pi_Pico_THT"
+			(at 33.02 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SL_Development_Boards:raspberry_pi_pico_THT"
+			(at 44.45 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Development Board with RP2040 MCU "
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "39"
+			(uuid "eb575cc9-4567-4776-9dd8-1b369a044433")
+		)
+		(pin "12"
+			(uuid "34d1e441-40cb-4097-834b-0fbe775587f9")
+		)
+		(pin "11"
+			(uuid "98891c05-c808-4195-96a1-df172c1f2804")
+		)
+		(pin "10"
+			(uuid "b77e81e3-63df-4099-b601-8f3ee1794312")
+		)
+		(pin "13"
+			(uuid "db8f519f-0f5a-494d-9c0e-33fdbd925db0")
+		)
+		(pin "1"
+			(uuid "7104f2d8-8972-454e-8070-ccb239e4f009")
+		)
+		(pin "6"
+			(uuid "8036650f-13d3-492e-90d6-685a77ed3bb7")
+		)
+		(pin "31"
+			(uuid "1b077185-46d2-435d-a9f0-7e5a7de115e0")
+		)
+		(pin "32"
+			(uuid "e8562a04-cc00-45ef-9e8d-94e62e628633")
+		)
+		(pin "26"
+			(uuid "f42f54ed-4aef-404c-9729-630169379c3b")
+		)
+		(pin "20"
+			(uuid "59881fd4-35ae-4a07-93e0-d1d59f705629")
+		)
+		(pin "21"
+			(uuid "13099ced-752c-46b4-9c80-af81647766c4")
+		)
+		(pin "24"
+			(uuid "8ff46506-2769-43eb-8609-09cd16cd1ae1")
+		)
+		(pin "18"
+			(uuid "b1d06a8e-8a47-4bd7-a7df-8c31ef368b3f")
+		)
+		(pin "29"
+			(uuid "b1977db1-2dd8-4dbb-8ffa-0ad4e691b028")
+		)
+		(pin "27"
+			(uuid "8d75386c-5574-4b9c-9cc4-be192f69ed9b")
+		)
+		(pin "40"
+			(uuid "247f987c-4d6d-4188-bd0c-0f3a6ffde8f1")
+		)
+		(pin "7"
+			(uuid "a932adbf-1eb0-4221-a8be-e5e19d80b966")
+		)
+		(pin "23"
+			(uuid "b73e0d28-004e-4df9-a447-db22a147845c")
+		)
+		(pin "30"
+			(uuid "7e2087e8-d082-46eb-8b0a-193230008205")
+		)
+		(pin "36"
+			(uuid "d85be06d-6525-4cd4-b1f9-bad650e28f09")
+		)
+		(pin "38"
+			(uuid "aa9e0ffc-2036-4394-8a82-e05f0c3c47c9")
+		)
+		(pin "19"
+			(uuid "668c91e5-a30e-48a5-bee9-c5b380a76846")
+		)
+		(pin "22"
+			(uuid "b3432f34-e27e-48e6-8877-84f64424e714")
+		)
+		(pin "35"
+			(uuid "648fef8a-2e75-4b33-9199-a1260b9dbcea")
+		)
+		(pin "2"
+			(uuid "ff44eab1-ac3c-4b5c-940e-2b7a0bec3287")
+		)
+		(pin "28"
+			(uuid "7e88197e-d4c1-4d69-98c8-ddf77c761b74")
+		)
+		(pin "3"
+			(uuid "513e20f3-2c88-438d-95d6-f0c6cc2ec513")
+		)
+		(pin "8"
+			(uuid "203335b6-9db6-4cd5-afdf-4efa7b0d917b")
+		)
+		(pin "34"
+			(uuid "7b2acba5-56f4-4b37-a838-a316259a185b")
+		)
+		(pin "37"
+			(uuid "1cd3c387-e45b-4027-827f-6b10d985b4fd")
+		)
+		(pin "4"
+			(uuid "873c8db4-c4f9-4d7d-b650-f4d7eceb3266")
+		)
+		(pin "25"
+			(uuid "ae3e660e-e3fd-4418-af45-f295fee6e4d1")
+		)
+		(pin "16"
+			(uuid "348c0122-9935-4466-8243-be81cb4e9054")
+		)
+		(pin "33"
+			(uuid "b172d3a6-75b6-4aef-aa10-698e0d4f3d12")
+		)
+		(pin "5"
+			(uuid "3ecd197b-86d5-493c-8399-2546dd842146")
+		)
+		(pin "17"
+			(uuid "f18be91a-057d-46be-92b9-33728d00458c")
+		)
+		(pin "15"
+			(uuid "de83d154-32d3-4745-9404-11515a5336ea")
+		)
+		(pin "14"
+			(uuid "1de32f95-3303-475c-a2d9-296891f60c1b")
+		)
+		(pin "9"
+			(uuid "57edc583-1370-4031-9c85-a3bbfaf1a063")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 73.66 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e4beaa-b45e-45d8-a636-07f85494c689")
+		(property "Reference" "D10"
+			(at 76.2 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 76.2 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "481dfb25-f618-4df8-8a49-ecb61767af8e")
+		)
+		(pin "2"
+			(uuid "4b6f8a46-2399-4ff5-acd7-0c9662aa7bd2")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 205.74 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82301826-1fcb-45da-82de-3b418119d208")
+		(property "Reference" "MX22"
+			(at 205.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 205.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 205.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "185266fb-1dc3-4465-ba18-a837d12fab47")
+		)
+		(pin "1"
+			(uuid "66c9f723-886b-454e-abc2-400c093ef55a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 31.75 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83e55bf9-7edd-4bfb-9a94-d21c700d5bfe")
+		(property "Reference" "D7"
+			(at 34.29 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 34.29 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3fe2dc-61e4-44a8-a8ae-d77793cff4f1")
+		)
+		(pin "2"
+			(uuid "f876b600-edcf-4b13-85db-62ae71ba74d6")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 250.19 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "891bdc8d-832a-4347-bc52-604ac796a495")
+		(property "Reference" "D33"
+			(at 252.73 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 252.73 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 250.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de987237-6484-4d85-b6cb-4427f469595f")
+		)
+		(pin "2"
+			(uuid "a80244b9-ebee-4478-9298-b0036780e11f")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 45.72 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8956ce45-8c64-4a60-9713-9536df3913bc")
+		(property "Reference" "D8"
+			(at 48.26 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 48.26 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b7a610b-bb93-4309-8bc2-068502d0823d")
+		)
+		(pin "2"
+			(uuid "1bbdb07a-a404-4576-a04f-4bef2bc34757")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 205.74 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b0290a4-4012-482d-aabe-8eb344619d5a")
+		(property "Reference" "MX41"
+			(at 205.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 205.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "229f5dc6-aaf1-4e4b-a380-bdc86a390d1e")
+		)
+		(pin "1"
+			(uuid "0e0c95d0-25ec-4382-af2a-d01b4be50867")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 87.63 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b30ac4d-3457-4d4d-8ad3-5d9decc3f22e")
+		(property "Reference" "D38"
+			(at 90.17 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 90.17 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 87.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01b09575-f547-46a0-abeb-d89ada532bf3")
+		)
+		(pin "2"
+			(uuid "a6e20c5f-6a84-4134-aace-47411cb5cf69")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 87.63 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd5e939-7a0c-4cfc-b151-aa78e297f60f")
+		(property "Reference" "D5"
+			(at 90.17 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 90.17 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0596cd8-b103-4b94-bfc2-687df2b82a05")
+		)
+		(pin "2"
+			(uuid "63748d48-8477-47a6-a9f6-18717d1e592b")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 222.25 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c8b338-5f22-47bb-a1a2-b26f059d20a9")
+		(property "Reference" "D42"
+			(at 224.79 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 224.79 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8598267-45fa-424f-9f73-cdca853333c4")
+		)
+		(pin "2"
+			(uuid "568193f0-758e-4412-9a81-a3816b06b254")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 233.68 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93f02ae0-a057-49a0-90a3-50c086746076")
+		(property "Reference" "MX30"
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7f95371-bc84-4471-a0e2-8b87597fa59a")
+		)
+		(pin "1"
+			(uuid "e3a11e1c-5b82-4eae-8c45-51e1a665414a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 264.16 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97d0d71d-6ef2-4604-affe-4d24fc8f9b59")
+		(property "Reference" "D36"
+			(at 266.7 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 266.7 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 264.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b90bf63b-c07a-46a5-8a82-2734870b9bcd")
+		)
+		(pin "2"
+			(uuid "62037025-ddf2-4bcb-bf45-1d58656f4e78")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 57.15 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9861ad7a-3b1c-4232-9223-99005a5cad09")
+		(property "Reference" "MX15"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bf0793d-9527-4590-94a1-31dc3774f4a3")
+		)
+		(pin "1"
+			(uuid "f1ebff78-05bd-4ca8-8e5e-1e5c900da2e3")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 45.72 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0096b3-a1d0-4a7b-a042-bd5dccdbe165")
+		(property "Reference" "D2"
+			(at 48.26 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 48.26 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7023419-e4c3-4f28-9c90-396b9f81cb7d")
+		)
+		(pin "2"
+			(uuid "02e331b3-83dc-4bcc-80ad-6a67653fe07a")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 264.16 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bb283f7-638a-4bf8-b81a-55cf183c1e6a")
+		(property "Reference" "D34"
+			(at 266.7 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 266.7 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 264.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 264.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "810f6d05-cabf-4a62-a5d6-081991f7c3b4")
+		)
+		(pin "2"
+			(uuid "39979d7a-8549-4d02-8053-da39e1580849")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 71.12 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d82bd7d-4a87-4f30-aa1e-b8c29fefae13")
+		(property "Reference" "MX37"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "741c99b3-0834-4b10-b911-6c192b6f0248")
+		)
+		(pin "1"
+			(uuid "4539f1b0-48e7-4f73-b510-aa815a171047")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 99.06 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9edcc00a-c6a8-4765-9d0d-eff4bc5728e4")
+		(property "Reference" "MX6"
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0defaa0-0b92-468a-bc13-5a9de1faa527")
+		)
+		(pin "1"
+			(uuid "b986abe1-c7de-441c-8b9b-86fa98dc1776")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 205.74 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a08565d5-2083-4276-930a-d3cb75d24a9a")
+		(property "Reference" "MX24"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22fe4d2a-be29-4a13-bdb3-0ac3568c9ee9")
+		)
+		(pin "1"
+			(uuid "6e31fff9-7f33-400b-a8cf-b90a5a5c1b83")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 194.31 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0fd01ce-2e54-4b75-b59a-224a42bf3f59")
+		(property "Reference" "D20"
+			(at 196.85 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 196.85 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e572182-33df-440c-a85c-bfdacc934f0f")
+		)
+		(pin "2"
+			(uuid "f18c8694-c25f-41f1-a574-f66f6f526f72")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 59.69 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1885b67-b78f-4d4c-bbf3-c71d77345359")
+		(property "Reference" "D9"
+			(at 62.23 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 62.23 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 59.69 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e328510-e014-4641-acd9-a22c54bb29ea")
+		)
+		(pin "2"
+			(uuid "6256d7c2-b542-4efe-826c-9ff1416eb19b")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 71.12 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5a1e2ec-646d-42df-a75e-ff53a90de300")
+		(property "Reference" "MX4"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0cd04d66-bc1d-44ad-b754-42917097d391")
+		)
+		(pin "1"
+			(uuid "712b6095-c965-446d-aae1-e83fa266eff1")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 191.77 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac7513fe-585b-4d69-bfb8-edd586e59210")
+		(property "Reference" "MX21"
+			(at 191.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f84288e3-207a-4e4f-8bd6-4d663bae4549")
+		)
+		(pin "1"
+			(uuid "b2bacb59-3c1b-4e16-9747-68bce3d63304")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 236.22 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc06361-a46a-4f51-831c-08389ed00a03")
+		(property "Reference" "D30"
+			(at 238.76 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 238.76 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36bbceed-46ec-4909-9dc0-15914c910ab9")
+		)
+		(pin "2"
+			(uuid "32ed2289-cad2-4754-b715-121dc08535a5")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 99.06 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed7729a-03be-42b6-9724-bd9e7acaa5b0")
+		(property "Reference" "MX12"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 99.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 99.06 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1d66932-502a-4408-b759-efd501bafce3")
+		)
+		(pin "1"
+			(uuid "36bf894e-ddc6-4feb-816d-209869fadcff")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 208.28 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "affbcd9b-d791-4fbf-a348-0122d9f001f3")
+		(property "Reference" "D24"
+			(at 210.82 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 210.82 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20b8111d-77ff-4333-bc90-757151f42de1")
+		)
+		(pin "2"
+			(uuid "268f62cb-9d10-4186-8577-eaf13e55d0fe")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 250.19 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b777b397-004f-410a-a165-08864bee0496")
+		(property "Reference" "D31"
+			(at 252.73 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 252.73 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da7a9dfe-7bbe-43af-99e2-5afc80cb7db5")
+		)
+		(pin "2"
+			(uuid "fb2894cd-7638-425b-9ea6-cac9e711c2be")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 208.28 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bde902f8-b2cd-4a57-b075-47b7fa4fb9b8")
+		(property "Reference" "D23"
+			(at 210.82 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 210.82 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26c9b4d3-fea0-4b32-971c-7c6f3a25ea45")
+		)
+		(pin "2"
+			(uuid "0b985047-c460-4ed3-be38-b6a95ad29f73")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 85.09 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be88ebb0-6315-42c2-8ba5-43f3405cce5f")
+		(property "Reference" "MX17"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 85.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8444c6a3-291a-4512-9ddf-672f3de1c6f6")
+		)
+		(pin "1"
+			(uuid "dd4806a4-33dc-46e1-9d22-58ba721b7703")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 233.68 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c120b317-f63e-4265-8f8d-28f050173927")
+		(property "Reference" "MX29"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 233.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cda9572-865d-4803-9562-1cd46ac6c7a7")
+		)
+		(pin "1"
+			(uuid "680f2896-d046-4ed7-b3a8-fb98d5b60fae")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 219.71 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c60b99a4-983b-41ec-8367-4f00862c9dbc")
+		(property "Reference" "MX26"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a83ea70-f906-4655-8f07-fb60e6a3c9a6")
+		)
+		(pin "1"
+			(uuid "922490d1-92bc-4adf-8bee-ce1860a01506")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 113.03 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66f4209-1877-465b-bb68-6601a42f13e1")
+		(property "Reference" "J1"
+			(at 115.57 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 115.57 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:Header-6-Pin-ZigZag"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4302f64a-677e-446e-a5ea-8c6ed896fa6d")
+		)
+		(pin "6"
+			(uuid "9209f784-c34d-4ff5-8f92-4ec1f58bb99c")
+		)
+		(pin "3"
+			(uuid "1e48521f-f76c-4048-92a0-1e0d9ef0e0c2")
+		)
+		(pin "1"
+			(uuid "f146658b-7665-4c3e-a101-69970294e20e")
+		)
+		(pin "4"
+			(uuid "253e645e-ff3a-4c86-82f6-8cd6476e0306")
+		)
+		(pin "5"
+			(uuid "c83a191e-4256-4712-864b-14a18571a3d4")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 208.28 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7fb674c-cf59-473a-b37b-7f319a069758")
+		(property "Reference" "D41"
+			(at 210.82 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 210.82 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "750baa3e-e7f9-4352-ac1a-c334ca607215")
+		)
+		(pin "2"
+			(uuid "d5ff39ff-dcca-4fd4-a627-6fb0654f6aa2")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 219.71 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c832369c-5363-4b31-a753-47eb30dea417")
+		(property "Reference" "MX42"
+			(at 219.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 219.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "000c1964-f293-4b34-adcb-de08e9d84198")
+		)
+		(pin "1"
+			(uuid "401a79cb-6235-480d-857b-16f1f16e208c")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 222.25 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c877a4ed-5b56-4260-b883-c75732e5ae57")
+		(property "Reference" "D25"
+			(at 224.79 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 224.79 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8cf66b-c646-4c5e-b306-4ddba5cbe847")
+		)
+		(pin "2"
+			(uuid "c7e2c0e8-ee29-48b3-8ecf-06ad3865223d")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 194.31 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce90854c-f8e5-4218-acfe-660cc464c16d")
+		(property "Reference" "D19"
+			(at 196.85 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 196.85 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39b2c207-70ee-4291-8b9c-371ce3cb50b3")
+		)
+		(pin "2"
+			(uuid "7bf0bf6e-339d-4a25-8a84-61945cdbe9fe")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 261.62 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d37e478a-a3f7-4d67-aa6a-0b0949f4f7ef")
+		(property "Reference" "MX34"
+			(at 261.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 261.62 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f1425d8-5b17-4583-9db6-d021a96ae6f7")
+		)
+		(pin "1"
+			(uuid "194275a6-0432-4e5c-b9d2-4ec0bc98a266")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 99.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d84c8846-63c7-46ee-ad1d-8ae003feebcc")
+		(property "Reference" "MX18"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 99.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14096cef-c25a-4f02-8755-5558409c1722")
+		)
+		(pin "1"
+			(uuid "1765a267-4944-4a28-b276-c3670f7ca77f")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 247.65 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc6ee49b-56c7-410a-a594-040abc017191")
+		(property "Reference" "MX31"
+			(at 247.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97ea6a09-9bac-4327-a2ff-e8613ca6f38f")
+		)
+		(pin "1"
+			(uuid "15e1e495-94e6-4fa6-972d-a98beef6fdbd")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 264.16 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee6629d-9bc5-4e38-88f3-ebd8b37aa0de")
+		(property "Reference" "D35"
+			(at 266.7 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 266.7 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 264.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b58cb19-3f97-4fd4-941b-ce2da0cc6ac5")
+		)
+		(pin "2"
+			(uuid "af75af21-1438-4045-a236-6ade41747c0e")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 194.31 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df00b2f4-ab49-4917-8407-a81168bda8e1")
+		(property "Reference" "D21"
+			(at 196.85 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 196.85 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8aaa41c-9c1a-486d-b2d5-ce794f623775")
+		)
+		(pin "2"
+			(uuid "e31a2e39-fff9-4be1-8fab-643e89492dfd")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 43.18 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfff44f1-2ac3-4d05-9b4e-4580859c0496")
+		(property "Reference" "MX14"
+			(at 43.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05ae628a-065d-4215-a46a-305987c4ea7e")
+		)
+		(pin "1"
+			(uuid "853ac59a-9adc-4297-9eb4-0902c41879da")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 85.09 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d40683-79be-45aa-a758-9e5d205d99dc")
+		(property "Reference" "MX38"
+			(at 85.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e55bfaee-ed2d-4a76-8260-aafa67fc4e41")
+		)
+		(pin "1"
+			(uuid "43dfa5dd-43fe-49fd-9242-79b76f717856")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 101.6 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f35e83-f2cf-44fb-a22d-e2c2d169b210")
+		(property "Reference" "D18"
+			(at 104.14 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 104.14 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b14754d-ca42-44e7-ac11-dd2dd16a629e")
+		)
+		(pin "2"
+			(uuid "3a41208f-b685-4422-bbeb-ebeb45a83f98")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 219.71 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e90a1c4d-3128-4b83-972e-afed6b7399bb")
+		(property "Reference" "MX27"
+			(at 219.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 219.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB_1.00u"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ea7f227-ad60-42c8-8014-b3640aef87df")
+		)
+		(pin "1"
+			(uuid "efe01c84-e418-4ea4-82aa-6ce08a837639")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Diode:D_Generic")
+		(at 236.22 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6a57376-0852-4cc1-8b18-c0dec88abd8f")
+		(property "Reference" "D28"
+			(at 238.76 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Generic"
+			(at 238.76 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Diode:D_DO-41_P7.62mm_Horizontal"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69890320-f15a-47ca-8515-0eda26eb31c8")
+		)
+		(pin "2"
+			(uuid "a73fe9aa-8474-40da-b54a-2442ee546d3b")
+		)
+		(instances
+			(project "connected"
+				(path "/21474b27-7b5e-4e51-861f-d0065ae697cb"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
